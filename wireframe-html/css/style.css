@@ -1,0 +1,115 @@
+
+
+header {
+    background-color: gold;
+    margin-right: 0;
+}
+#menu a:hover {
+    color: #000000;
+    background-color: #556B2F;
+    opacity: .60
+}
+
+#menu a:focus {
+    color: #FFFFFF;
+    background-color: #000000;
+    opacity: .30
+}
+
+#actieve-pagina {
+    color: gold;
+    background-color: #363636;
+}
+#menu ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+
+}
+
+#menu li {
+    flex: 1 1 auto;
+}
+main{
+    color: gold;
+    background-color: #363636;
+    font-size: 1.5rem;
+    padding: 0 0 2rem 2rem ;
+}
+p{
+    margin-bottom: 0;
+
+}
+
+li a {
+    font-weight: bold;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    margin: auto 0;
+}
+#container {
+    margin: 2rem auto;
+    max-width: 75%;
+    /*width: 100%;*/
+    background-color: #FFFFFF;
+    /*ondoorzichtigheid*/
+    box-shadow: 10px 10px 50px 0 rgba(0, 0, 0, 0.75);
+    word-break: break-word;
+}
+ h1{
+    margin-top: 0px;
+    padding-top: 1rem;
+     font-size: 2.5Rem;
+}
+footer p {
+    background-color: gold;
+    margin: 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#from_wrapper {
+    align-content: center;
+}
+
+#form {
+    margin-right: 3rem;
+}
+form{
+    display: block;
+
+}
+
+
+label {
+    border: none;
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    display: block;
+}
+form {
+    display: grid;
+    flex-direction: row;
+    grid-gap: 1rem;
+    max-width: 20rem;
+    margin: 1rem; }
+
+input{
+    border-color: gold;
+    border-radius: 1rem;
+}
+::placeholder, input, select {
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+textarea {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+tr{
+    text-align: left;
+}

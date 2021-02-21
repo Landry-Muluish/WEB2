@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title> Homepage; </title>
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+</head>
+<body>
+<div id ="container">
+    <header>
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="voegBierToe.html" id="actieve-pagina">Voeg bier toe</a></li>
+                    <li><a href="overzicht.html">Overzicht bieren</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <article id="Wrapper_contact">
+            <h1>Voeg je bier toe!</h1>
+            <section id="from_wrapper">
+                <form id="form">
+                    <label for="naam">naam:</label>
+                    <input type="text" id="naam" required>
+
+                    <label for="soortBier">Soort bier:</label>
+                    <input type="text" id="soortBier" required>
+
+                    <label for="rating">Rating op 5:</label>
+                    <input type="number" id="rating" required min="1" max = "5">
+
+                    <input type="submit" value="Verzend">
+                </form>
+                <p> Alle velden zijn verplicht in tevullen.</p>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>
+            WebOntwikkeling 2 - 2020-2021
+        </p>
+    </footer>
+</div>
+</body>
+</html>
